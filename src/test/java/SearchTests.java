@@ -10,7 +10,7 @@ public class SearchTests {
     void successfulSearchTest() {
         Configuration.holdBrowserOpen = true;
         Configuration.browser = "chrome";
-        Configuration.pageLoadTimeout = 60000;
+        Configuration.pageLoadTimeout = 60000;ы
         open("https://www.google.com/");
         $("[name=q]").setValue("selenide").pressEnter();
         $("[id=search]").shouldHave(text("https://selenide.org"));

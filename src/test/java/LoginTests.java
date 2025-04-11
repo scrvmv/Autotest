@@ -11,7 +11,7 @@ public class LoginTests {
 
 // Не закрывать барузер, после выполения теста
         Configuration.holdBrowserOpen = true;
-        Configuration.browser = "firefox";
+        Configuration.browser = "google";
         Configuration.pageLoadTimeout = 60000;
 // Открыть форму авторизации
         open("https://qa.guru/cms/system/login");
